@@ -1,9 +1,10 @@
 import React from 'react'
-import './Css2.css'
+import styles from '././Css2.module.css'
+
 function Css2() {
   return (
     <div>
-      <h1 className='color font'>New Css</h1>
+      <h1 className={styles.color}>New Css</h1>
     </div>
   )
 }

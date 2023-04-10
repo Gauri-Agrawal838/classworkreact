@@ -1,10 +1,10 @@
 import React from 'react'
-import './ExternalCss.css'
+import styles from '././ExternalCss.module.css'
 
 function ExternalCss() {
   return (
     <div>
-      <h1 className='color font'>External Css</h1>
+      <h1 className={styles.color}>External Css</h1>
     </div>
   )
 }
